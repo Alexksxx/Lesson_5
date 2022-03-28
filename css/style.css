@@ -1,0 +1,89 @@
+@import "null.css";
+@import "fonts.css";
+body {
+	background-color: rgb(223, 223, 223);
+	font-family: "San Francisco";
+	font-size: 18px;
+}
+h1 {
+	font-weight: 600;
+	font-size: 60px;
+	color: rgb(26, 26, 94);
+	text-align: center;
+	margin: 0px 0px 30px 0px;
+}
+.logo {
+	margin: 30px auto;
+	display: block;
+	max-width: 20%;
+}
+.tnav {
+	margin-left: 50px;
+}
+.nav {
+	background-color: rgb(189, 189, 189);
+	margin: 0px 0px 50px 50px;
+	max-width: 400px;
+	max-height: 150px;
+	overflow: auto;
+	box-shadow: 10px 10px rgb(131, 131, 131);
+}
+.nav > ul {
+	margin: 0px 0px 0px 0px;
+}
+ul {
+	margin: 0px 0px 50px 0px;
+	font-style: italic;
+}
+li > ul {
+	margin: 0px 0px 0px 0px;
+}
+li {
+	padding-left: 15px;
+	list-style-position: inside;
+	list-style-type: disc;
+	line-height: 2;
+}
+
+.img-block {
+	max-width: 1047px;
+	margin: 0px auto 50px auto;
+}
+h2,
+h3 {
+	margin: 0px 0px 50px 50px;
+	font-weight: 600;
+	font-size: 40px;
+}
+h3 {
+	font-size: 30px;
+}
+.text {
+	margin: 0px 0px 50px 20px;
+	text-align: justify;
+	line-height: 1.5;
+}
+.footer {
+	background-color: rgb(75, 75, 75);
+	max-width: 100%;
+	min-height: 200px;
+	padding: 50px 0px 50px 0px;
+}
+.box {
+	max-height: 100px;
+	max-width: 200px;
+	margin: 0px auto;
+}
+.index {
+	display: inline-block;
+}
+.ss {
+	padding: 35px 0px 35px 0px;
+	background-color: rgb(160, 52, 52);
+	color: white;
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	font-size: 30px;
+	margin: 10px 20px 0px 0px;
+}
